@@ -77,10 +77,10 @@
 
         layer_4 {
             bindings = <
-&trans  &trans  &bt BT_SEL 0  &bt BT_NXT  &bt BT_PRV  &trans            &trans       &kp UP    &trans     &trans  &trans  &kp LC(DELETE)
-&trans  &trans  &trans        &trans      &trans      &trans            &kp LEFT     &kp DOWN  &kp RIGHT  &trans  &trans  &trans
-&trans  &trans  &trans        &trans      &trans      &trans            &trans       &trans    &trans     &trans  &trans  &trans
-                              &trans      &trans      &kp LA(DELETE)    &kp LA(DEL)  &trans    &trans
+&bt BT_CLR_ALL  &bt BT_CLR  &bt BT_SEL 0  &bt BT_NXT  &bt BT_PRV  &trans            &trans       &kp UP    &trans     &trans  &trans  &kp LC(DELETE)
+&trans          &trans      &trans        &trans      &trans      &trans            &kp LEFT     &kp DOWN  &kp RIGHT  &trans  &trans  &trans
+&trans          &trans      &trans        &trans      &trans      &trans            &trans       &trans    &trans     &trans  &trans  &trans
+                                          &trans      &trans      &kp LA(DELETE)    &kp LA(DEL)  &trans    &trans
             >;
         };
 
