@@ -40,10 +40,10 @@
             //                    | GUI | LWR | SPC |   | ENT | RSE  | ALT |
 
             bindings = <
-&kp TAB    &kp Q  &kp W  &kp E                                &kp R                   &kp T                         &kp Y                 &kp U               &kp I                          &kp O    &kp P     &kp BSPC
-&kp LCTRL  &kp A  &kp S  &kp D                                &kp F                   &kp G                         &kp H                 &kp J               &kp K                          &kp L    &kp SEMI  &kp SQT
-&kp LSHFT  &kp Z  &kp X  &kp C                                &kp V                   &kp B                         &kp N                 &kp M               &kp COMMA                      &kp DOT  &kp FSLH  &kp ESC
-                         &mt LC(LEFT_CONTROL) LC(LEFT_ARROW)  &mt LEFT_ALT LC(RIGHT)  &mt LC(LS(LEFT_ALT)) ENTER    &mt LEFT_SHIFT SPACE  &lt 3 LC(LA(DOWN))  &mt LEFT_ALT LC(LA(UP_ARROW))
+&kp ESCAPE  &kp Q  &kp W    &kp E                                &kp R                   &kp T                         &kp Y                 &kp U               &kp I                          &kp O    &kp P     &kp BSPC
+&lt 1 TAB   &kp A  &lt 3 S  &kp D                                &kp F                   &kp G                         &kp H                 &kp J               &kp K                          &kp L    &kp SEMI  &kp SQT
+&kp LSHFT   &kp Z  &kp X    &kp C                                &kp V                   &kp B                         &kp N                 &kp M               &kp COMMA                      &kp DOT  &kp FSLH  &mo 0
+                            &mt LC(LEFT_CONTROL) LC(LEFT_ARROW)  &mt LEFT_ALT LC(RIGHT)  &mt LC(LS(LEFT_ALT)) ENTER    &mt LEFT_SHIFT SPACE  &lt 3 LC(LA(DOWN))  &mt LEFT_ALT LC(LA(UP_ARROW))
             >;
         };
 
@@ -73,19 +73,10 @@
 
         layer_3 {
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
-                        &trans  &trans  &trans    &trans  &trans  &trans
-            >;
-        };
-
-        layer_4 {
-            bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
-                        &trans  &trans  &trans    &trans  &trans  &trans
+&trans  &trans  &trans  &trans    &kp UP    &trans       &trans             &kp LS(LA(LC(W)))  &trans             &trans  &trans  &trans
+&trans  &trans  &trans  &kp LEFT  &kp DOWN  &kp RIGHT    &kp LS(LA(LC(A)))  &kp LS(LA(LC(S)))  &kp LS(LA(LC(D)))  &trans  &trans  &trans
+&trans  &trans  &trans  &trans    &trans    &trans       &trans             &trans             &trans             &trans  &trans  &trans
+                        &trans    &trans    &trans       &trans             &trans             &trans
             >;
         };
     };
