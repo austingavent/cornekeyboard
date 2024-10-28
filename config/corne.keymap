@@ -76,7 +76,7 @@
 &trans  &kp LA(NUMBER_1)  &trans  &trans    &kp UP    &kp LC(UP_ARROW)    &trans             &kp LS(LA(LC(W)))  &trans             &trans  &trans  &trans
 &trans  &trans            &trans  &kp LEFT  &kp DOWN  &kp RIGHT           &kp LS(LA(LC(A)))  &kp LS(LA(LC(S)))  &kp LS(LA(LC(D)))  &trans  &trans  &trans
 &trans  &trans            &trans  &trans    &trans    &trans              &trans             &trans             &trans             &trans  &trans  &trans
-                                  &trans    &trans    &sk LG(TAB)         &trans             &trans             &trans
+                                  &trans    &trans    &kp LG(TAB)         &trans             &trans             &trans
             >;
         };
     };
