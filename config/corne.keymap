@@ -73,10 +73,10 @@
 
         layer_3 {
             bindings = <
-&trans  &kp LA(NUMBER_1)  &trans  &trans    &kp UP    &kp LC(UP_ARROW)    &trans             &kp LS(LA(LC(W)))  &trans             &trans  &trans  &trans
-&trans  &trans            &trans  &kp LEFT  &kp DOWN  &kp RIGHT           &kp LS(LA(LC(A)))  &kp LS(LA(LC(S)))  &kp LS(LA(LC(D)))  &trans  &trans  &trans
-&trans  &trans            &trans  &trans    &trans    &trans              &trans             &trans             &trans             &trans  &trans  &trans
-                                  &trans    &trans    &kp LG(TAB)         &trans             &trans             &trans
+&kp LS(LA(LEFT))  &kp LA(LEFT)        &kp UP_ARROW   &kp LA(RIGHT)  &kp LA(LS(RIGHT))  &kp LC(K_SCROLL_UP)    &trans             &kp LS(LA(LC(W)))  &trans             &trans  &trans  &trans
+&kp LS(LEFT)      &kp LEFT            &kp DOWN       &kp RIGHT      &kp LS(RIGHT)      &kp K_SCROLL_DOWN      &kp LS(LA(LC(A)))  &kp LS(LA(LC(S)))  &kp LS(LA(LC(D)))  &trans  &trans  &trans
+&kp LG(LS(LEFT))  &kp LG(LEFT_ARROW)  &kp PAGE_DOWN  &kp LG(RIGHT)  &kp LG(LS(RIGHT))  &trans                 &trans             &trans             &trans             &trans  &trans  &trans
+                                                     &trans         &trans             &kp LG(TAB)            &trans             &trans             &trans
             >;
         };
     };
